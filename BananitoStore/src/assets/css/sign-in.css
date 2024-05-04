@@ -1,5 +1,5 @@
 body {
-  background: #ececec;
+  background: #ffffff;
   background: linear-gradient(to right, #ffffff);
 }
 
@@ -27,7 +27,7 @@ body {
 
 .btn-facebook:hover {
   color: #3b5998 !important;
-  background-color: white;
+  background-color: rgb(246, 246, 246);
   border: 0.1rem solid #3b5998;
 }
 

@@ -1,0 +1,11 @@
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Debug\net6.0\UPC.APIBusiness.DBEntity.deps.json
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Debug\net6.0\UPC.APIBusiness.DBEntity.dll
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\bin\Debug\net6.0\UPC.APIBusiness.DBEntity.pdb
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\UPC.APIBusiness.DBEntity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\UPC.APIBusiness.DBEntity.AssemblyInfoInputs.cache
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\UPC.APIBusiness.DBEntity.AssemblyInfo.cs
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\UPC.APIBusiness.DBEntity.csproj.CoreCompileInputs.cache
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\UPC.APIBusiness.DBEntity.dll
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\refint\UPC.APIBusiness.DBEntity.dll
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\UPC.APIBusiness.DBEntity.pdb
+E:\Backup_D\Angular\TrabajoFinal\BananitoStore-Services\UPC.APIBusiness\UPC.APIBusiness.DBEntity\obj\Debug\net6.0\ref\UPC.APIBusiness.DBEntity.dll

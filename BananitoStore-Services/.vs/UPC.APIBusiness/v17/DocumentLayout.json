@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{84C70DB5-386E-4A03-B176-CDDE14B2E371}|UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj|e:\\backup_d\\angular\\trabajofinal\\bananitostore-services\\upc.apibusiness\\upc.apibusiness.dbentity\\model\\entityproductosdestacadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{84C70DB5-386E-4A03-B176-CDDE14B2E371}|UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\UPC.APIBusiness.DBEntity.csproj|solutionrelative:upc.apibusiness\\upc.apibusiness.dbentity\\model\\entityproductosdestacadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9C5060-8A75-4963-897B-496525EF3F79}|UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj|e:\\backup_d\\angular\\trabajofinal\\bananitostore-services\\upc.apibusiness\\upc.apibusiness.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9C5060-8A75-4963-897B-496525EF3F79}|UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj|solutionrelative:upc.apibusiness\\upc.apibusiness.api\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9C5060-8A75-4963-897B-496525EF3F79}|UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj|e:\\backup_d\\angular\\trabajofinal\\bananitostore-services\\upc.apibusiness\\upc.apibusiness.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9C5060-8A75-4963-897B-496525EF3F79}|UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj|solutionrelative:upc.apibusiness\\upc.apibusiness.api\\controllers\\projectcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3E9C5060-8A75-4963-897B-496525EF3F79}|UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj|e:\\backup_d\\angular\\trabajofinal\\bananitostore-services\\upc.apibusiness\\upc.apibusiness.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3E9C5060-8A75-4963-897B-496525EF3F79}|UPC.APIBusiness\\UPC.APIBusiness.API\\UPC.APIBusiness.API.csproj|solutionrelative:upc.apibusiness\\upc.apibusiness.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB7210E-C87D-4222-8EFD-8D81C780DDAF}|UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj|e:\\backup_d\\angular\\trabajofinal\\bananitostore-services\\upc.apibusiness\\upc.apibusiness.dbcontext\\interface\\icarritocompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB7210E-C87D-4222-8EFD-8D81C780DDAF}|UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj|solutionrelative:upc.apibusiness\\upc.apibusiness.dbcontext\\interface\\icarritocompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB7210E-C87D-4222-8EFD-8D81C780DDAF}|UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj|e:\\backup_d\\angular\\trabajofinal\\bananitostore-services\\upc.apibusiness\\upc.apibusiness.dbcontext\\interface\\iproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CB7210E-C87D-4222-8EFD-8D81C780DDAF}|UPC.APIBusiness\\UPC.APIBusiness.DBContext\\UPC.APIBusiness.DBContext.csproj|solutionrelative:upc.apibusiness\\upc.apibusiness.dbcontext\\interface\\iproductos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAADgvzIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T21:02:13.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectController.cs",
+              "DocumentMoniker": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProjectController.cs",
+              "RelativeDocumentMoniker": "UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProjectController.cs",
+              "ToolTip": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProjectController.cs",
+              "RelativeToolTip": "UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProjectController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAAADsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T20:20:43.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProductosController.cs",
+              "ToolTip": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "UPC.APIBusiness\\UPC.APIBusiness.API\\Controllers\\ProductosController.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAUwEEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T20:19:30.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntityProductosDestacadas.cs",
+              "DocumentMoniker": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Model\\EntityProductosDestacadas.cs",
+              "RelativeDocumentMoniker": "UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Model\\EntityProductosDestacadas.cs",
+              "ToolTip": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Model\\EntityProductosDestacadas.cs",
+              "RelativeToolTip": "UPC.APIBusiness\\UPC.APIBusiness.DBEntity\\Model\\EntityProductosDestacadas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T19:13:34.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICarritoCompras.cs",
+              "DocumentMoniker": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\ICarritoCompras.cs",
+              "RelativeDocumentMoniker": "UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\ICarritoCompras.cs",
+              "ToolTip": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\ICarritoCompras.cs",
+              "RelativeToolTip": "UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\ICarritoCompras.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:20:32.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductos.cs",
+              "DocumentMoniker": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\IProductos.cs",
+              "RelativeDocumentMoniker": "UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\IProductos.cs",
+              "ToolTip": "E:\\Backup_D\\Angular\\TrabajoFinal\\BananitoStore-Services\\UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\IProductos.cs",
+              "RelativeToolTip": "UPC.APIBusiness\\UPC.APIBusiness.DBContext\\Interface\\IProductos.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:11:32.651Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

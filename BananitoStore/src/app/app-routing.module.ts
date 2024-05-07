@@ -9,6 +9,7 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactenosComponent } from './pages/contactenos/contactenos.component';
 import { DetalleCompraComponent } from './pages/detalle-compra/detalle-compra.component';
 
+
 const router: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },

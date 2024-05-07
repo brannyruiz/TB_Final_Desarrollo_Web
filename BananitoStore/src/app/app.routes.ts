@@ -8,6 +8,7 @@ import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactenosComponent } from './pages/contactenos/contactenos.component';
 import { DetalleCompraComponent } from './pages/detalle-compra/detalle-compra.component';
 
+
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'login', component: LoginComponent },

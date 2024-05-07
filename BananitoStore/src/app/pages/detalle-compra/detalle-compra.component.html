@@ -15,7 +15,7 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="../../../assets/images/1-Calzado-Dama-Cv-Roma.jpg" class="d-block w-100"
+                            <img src="{{articulo.imagen}}" class="d-block w-100"
                                 alt="...">
                         </div>
                         <div class="carousel-item">
@@ -44,7 +44,7 @@
             <div class="col-md-5">
                 <!-- Heading -->
                 <div class="mb-5">
-                    <h1 class="h2">Calzado Dama Cv-Roma Negro</h1>
+                    <h1 class="h2">{{articulo.marca}} - {{articulo.descripcion}}</h1>
                     <!-- Estrellas -->
                     <div class="rating">
                         <svg class="star star-fill">
@@ -70,8 +70,8 @@
                     <div class="mb-5">
                         <span class="d-block mb-2">Precio:</span>
                         <div class="d-flex align-items-center">
-                            <h3 class="mb-0">S/140.00</h3>
-                            <span class="ms-2"><del>S/179.00</del></span>
+                            <h3 class="mb-0">S/ {{articulo.precio_descuento}}</h3>
+                            <span class="ms-2"><del>S/ {{articulo.precio}}</del></span>
                         </div>
                     </div>
                     <!-- End Price -->
@@ -79,9 +79,8 @@
                     <div class="quantity-counter mb-3">
                         <div class="js-quantity-counter row align-items-center">
                             <div class="col">
-                                <span class="d-block small">Selecciona la catidad</span>
-                                <input class="js-result form-control form-control-quantity-counter" type="text"
-                                    value="1">
+                                <span class="d-block small">Selecciona la cantidad</span>
+                                <input class="js-result form-control form-control-quantity-counter" type="text"  (input)="onInputChange($event)" >
                             </div>
                             <!-- End Col -->
 
@@ -113,22 +112,21 @@
 
                     <!-- Talla-->
                     <div class="mb-5">
-                        <select class="form-select" aria-label="Default select example">
+                        <select class="form-select" aria-label="Default select example" (change)="onOptionChange($event)">
                             <option selected>Selecciones la talla</option>
-                            <option value="1">35</option>
-                            <option value="2">36</option>
-                            <option value="3">37</option>
-                            <option value="3">38</option>
+                            <option value="35">35</option>
+                            <option value="36">36</option>
+                            <option value="37">37</option>
+                            <option value="38">38</option>
                         </select>
                     </div>
                     <!-- End Talla-->
 
                     <hr>
-                    <p>Zapato De Vestir cuero peruano</p>
                 </div>
                 <!-- End Heading -->
                 <div class="d-grid mb-4">
-                    <button type="button" class="btn btn-primary btntransition">Agregar al Carrito</button>
+                    <a type="button" href="carritoCompra" class="btn btn-primary btntransition" (click)="agregarProductoAlCarrito(articulo)">Agregar al Carrito</a>
                 </div>
             </div>
             <!-- End Col -->

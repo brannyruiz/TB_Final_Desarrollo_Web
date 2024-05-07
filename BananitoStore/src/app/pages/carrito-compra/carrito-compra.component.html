@@ -35,19 +35,19 @@
                                     <div>
                                         <h6 class="my-0">Sub-Total</h6>
                                     </div>
-                                    <span class="text-body-secondary">S/ 458.38</span>
+                                    <span class="text-body-secondary">S/ {{subtotal | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Envio</h6>
                                     </div>
-                                    <span class="text-body-secondary">GRATIS</span>
+                                    <span class="text-body-secondary">{{costo_envio | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Impuesto</h6>
                                     </div>
-                                    <span class="text-body-secondary">S/ 100.62</span>
+                                    <span class="text-body-secondary">S/ {{igv | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
                                     <div class="text-success">
@@ -57,8 +57,8 @@
                                     <span class="text-success">−S/ 20.00</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Total (PEN))</span>
-                                    <strong>S/ 539.00</strong>
+                                    <span>Total (PEN)</span>
+                                    <strong>S/ {{total | number:'1.2-2'}}</strong>
                                 </li>
                             </ul>
 
@@ -75,46 +75,29 @@
                     <div class="col-md-7 col-lg-8">
                         <h4 class="h4 link-color">Detalle de Compra</h4>
                         <div class="detalle-compra">
-                            <div class="row" style="margin-bottom: 1rem;">
+                            <div *ngFor = "let p of articulos" class="row" style="margin-bottom: 1rem;">
                                 <div class="col-sm-2">
-                                    <img src="../../../assets/images/63F370306681E-Calzado-Dama-Cv-Roma.jpg"
+                                    <img src="{{p.imagen}}"
                                         class="card-resumen" alt="...">
                                 </div>
 
                                 <div class="col-sm-7 padding-nombre-calzado">
-                                    <h4>Calzado Roma</h4>
-                                    <p style="margin-bottom: 0;">Talla 37 - 1 Und.</p>
-                                    <p>S/ 359.00</p>
+                                    <h4>{{p.marca}} - {{p.descripcion}}</h4>
+                                    <p style="margin-bottom: 0;">Talla {{p.talla}} - {{p.cantidad}} Und.</p>
+                                    <p>S/ {{p.precio}}</p>
                                 </div>
 
                                 <div class="col-sm-1">
-                                    <button type="button" class="btn-close btn-black" disabled
-                                        aria-label="Close"></button>
+                                    <button type="button" class="btn-close btn-black"
+                                        aria-label="Close" (click)="quitarProductoAlCarrito(p)"></button>
                                 </div>
 
 
                             </div>
 
-                            <div class="row">
-                                <div class="col-sm-2">
-                                    <img src="../../../assets/images/64B9BB337E186-Calzado-Dama-C-Vero.jpg"
-                                        class="card-resumen" alt="...">
-                                </div>
-
-                                <div class="col-sm-7 padding-nombre-calzado">
-                                    <h4>Calzado Vero</h4>
-                                    <p style="margin-bottom: 0;">Talla 37 - 1 Und.</p>
-                                    <p>S/ 200.00</p>
-                                </div>
-
-                                <div class="col-sm-1">
-                                    <button type="button" class="btn-close btn-black" disabled
-                                        aria-label="Close"></button>
-                                </div>
-                            </div>
                         </div>
                         <div class="btn btn-medium btn-primary">Siguiente</div>
-                        <div class="btn btn-medium btn-secondary">Anular</div>
+                        <button class="btn btn-medium btn-secondary" (click)="vaciarCarrito()">Anular</button>
                     </div>
 
                 </div>
@@ -135,31 +118,6 @@
 
                         <div class="detalle-compra1">
 
-                            <div class="row" style="margin-bottom: 1rem;">
-                                <div class="col-sm-6">
-                                    <img src="../../../assets/images/63F370306681E-Calzado-Dama-Cv-Roma.jpg"
-                                        class="card-resumen" alt="...">
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <h4>Calzado Roma</h4>
-                                    <p>S/ 359.00</p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <img src="../../../assets/images/64B9BB337E186-Calzado-Dama-C-Vero.jpg"
-                                        class="card-resumen" alt="...">
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <h4>Calzado Vero</h4>
-                                    <p>S/ 200.00</p>
-                                </div>
-                            </div>
-
-
                             <hr class="my-4">
 
                             <ul class="list-group mb-3">
@@ -167,19 +125,19 @@
                                     <div>
                                         <h6 class="my-0">Sub-Total</h6>
                                     </div>
-                                    <span class="text-body-secondary">S/ 458.38</span>
+                                    <span class="text-body-secondary">S/ {{subtotal | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Envio</h6>
                                     </div>
-                                    <span class="text-body-secondary">GRATIS</span>
+                                    <span class="text-body-secondary">{{costo_envio | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Impuesto</h6>
                                     </div>
-                                    <span class="text-body-secondary">S/ 100.62</span>
+                                    <span class="text-body-secondary">S/ {{igv | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
                                     <div class="text-success">
@@ -189,8 +147,8 @@
                                     <span class="text-success">−S/ 20.00</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Total (PEN))</span>
-                                    <strong>S/ 539.00</strong>
+                                    <span>Total (PEN)</span>
+                                    <strong>S/ {{total | number:'1.2-2'}}</strong>
                                 </li>
                             </ul>
 
@@ -300,7 +258,7 @@
                                             <div class="form-check form-check-inline form-envio"
                                                 style="margin-right: 2rem">
                                                 <input class="form-check-input" type="radio" name="opciones"
-                                                    id="opcion1" value="option1">
+                                                    id="opcion1" value="option1" (change)="seleccionar_envio(0)" checked>
                                                 <label class="form-check-label" for="opcion1">
                                                     <strong class="fw-semibold">Envio Gratis</strong>
                                                     <span class="d-block small opacity-75">2 días hábiles</span>
@@ -312,7 +270,7 @@
                                         <div class="col-sm-6 col-border-envio">
                                             <div class="form-check gx-3 form-check-inline form-envio">
                                                 <input class="form-check-input" type="radio" name="opciones"
-                                                    id="opcion1" value="option1">
+                                                    id="opcion1" value="option1"  (change)="seleccionar_envio(10.90)">
                                                 <label class="form-check-label" for="opcion1">
                                                     <strong class="fw-semibold">Envio rápido</strong>
                                                     <span class="d-block small opacity-75">S/ 10.90 - 24
@@ -362,51 +320,26 @@
 
                         <div class="detalle-compra1">
 
-                            <div class="row" style="margin-bottom: 1rem;">
-                                <div class="col-sm-6">
-                                    <img src="../../../assets/images/63F370306681E-Calzado-Dama-Cv-Roma.jpg"
-                                        class="card-resumen" alt="...">
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <h4>Calzado Roma</h4>
-                                    <p>S/ 359.00</p>
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <img src="../../../assets/images/64B9BB337E186-Calzado-Dama-C-Vero.jpg"
-                                        class="card-resumen" alt="...">
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <h4>Calzado Vero</h4>
-                                    <p>S/ 200.00</p>
-                                </div>
-                            </div>
-
-
-                            <hr class="my-4">
+                          <hr class="my-4">
 
                             <ul class="list-group mb-3">
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Sub-Total</h6>
                                     </div>
-                                    <span class="text-body-secondary">S/ 458.38</span>
+                                    <span class="text-body-secondary">S/ {{subtotal | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Envio</h6>
                                     </div>
-                                    <span class="text-body-secondary">GRATIS</span>
+                                    <span class="text-body-secondary">{{costo_envio | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
                                     <div>
                                         <h6 class="my-0">Impuesto</h6>
                                     </div>
-                                    <span class="text-body-secondary">S/ 100.62</span>
+                                    <span class="text-body-secondary">S/ {{igv | number:'1.2-2'}}</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
                                     <div class="text-success">
@@ -416,8 +349,8 @@
                                     <span class="text-success">−S/ 20.00</span>
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between">
-                                    <span>Total (PEN))</span>
-                                    <strong>S/ 539.00</strong>
+                                    <span>Total (PEN)</span>
+                                    <strong>S/ {{total | number:'1.2-2'}}</strong>
                                 </li>
                             </ul>
 
@@ -435,9 +368,9 @@
                                 <form class="needs-validatio" synovalidate>
                                     <div class="my-3">
                                         <div class="form-check">
-                                            <input id="credit" name="paymentMethod" type="radio"
-                                                class="form-check-input" checked required>
-                                            <label class="form-check-label" for="credit">
+                                            <input id="opcion2" name="paymentMethod" type="radio" value="opcion2"
+                                                class="form-check-input" checked>
+                                            <label class="form-check-label" for="opcion2">
                                                 <strong>Tarjeta de Débito / Crédito</strong>
                                             </label>
                                         </div>
@@ -491,9 +424,9 @@
                                         <form class="needs-validatio" synovalidate>
                                             <div class="my-3">
                                                 <div class="form-check">
-                                                    <input id="paypal" name="paymentMethod" type="radio"
-                                                        class="form-check-input" required>
-                                                    <label class="form-check-label" for="paypal">
+                                                    <input id="opcion2" name="paymentMethod" type="radio" value="opcion2"
+                                                        class="form-check-input">
+                                                    <label class="form-check-label" for="opcion2">
                                                         <strong>PayPal</strong>
                                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                                                             Deleniti quasi non cumque,

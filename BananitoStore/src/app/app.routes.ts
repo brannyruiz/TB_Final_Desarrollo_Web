@@ -7,7 +7,8 @@ import { OfertasComponent } from './pages/ofertas/ofertas.component';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ContactenosComponent } from './pages/contactenos/contactenos.component';
 import { DetalleCompraComponent } from './pages/detalle-compra/detalle-compra.component';
-
+import { CargandoComponent } from './pages/cargando/cargando.component';
+import { ConfirmacionCompraComponent } from './pages/confirmacion-compra/confirmacion-compra.component';
 
 export const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -18,4 +19,6 @@ export const routes: Routes = [
   { path: 'nosotros', component: NosotrosComponent },
   { path: 'contactenos', component: ContactenosComponent },
   { path: 'detalleCompra', component: DetalleCompraComponent },
+  { path: 'cargando', component: CargandoComponent },
+  { path: 'confirmacionCompra', component: ConfirmacionCompraComponent },
 ];

@@ -75,10 +75,9 @@
                     <div class="col-md-7 col-lg-8">
                         <h4 class="h4 link-color">Detalle de Compra</h4>
                         <div class="detalle-compra">
-                            <div *ngFor = "let p of articulos" class="row" style="margin-bottom: 1rem;">
+                            <div *ngFor="let p of articulos" class="row" style="margin-bottom: 1rem;">
                                 <div class="col-sm-2">
-                                    <img src="{{p.imagen}}"
-                                        class="card-resumen" alt="...">
+                                    <img src="{{p.imagen}}" class="card-resumen" alt="...">
                                 </div>
 
                                 <div class="col-sm-7 padding-nombre-calzado">
@@ -88,8 +87,8 @@
                                 </div>
 
                                 <div class="col-sm-1">
-                                    <button type="button" class="btn-close btn-black"
-                                        aria-label="Close" (click)="quitarProductoAlCarrito(p)"></button>
+                                    <button type="button" class="btn-close btn-black" aria-label="Close"
+                                        (click)="quitarProductoAlCarrito(p)"></button>
                                 </div>
 
 
@@ -258,7 +257,8 @@
                                             <div class="form-check form-check-inline form-envio"
                                                 style="margin-right: 2rem">
                                                 <input class="form-check-input" type="radio" name="opciones"
-                                                    id="opcion1" value="option1" (change)="seleccionar_envio(0)" checked>
+                                                    id="opcion1" value="option1" (change)="seleccionar_envio(0)"
+                                                    checked>
                                                 <label class="form-check-label" for="opcion1">
                                                     <strong class="fw-semibold">Envio Gratis</strong>
                                                     <span class="d-block small opacity-75">2 días hábiles</span>
@@ -270,7 +270,7 @@
                                         <div class="col-sm-6 col-border-envio">
                                             <div class="form-check gx-3 form-check-inline form-envio">
                                                 <input class="form-check-input" type="radio" name="opciones"
-                                                    id="opcion1" value="option1"  (change)="seleccionar_envio(10.90)">
+                                                    id="opcion1" value="option1" (change)="seleccionar_envio(10.90)">
                                                 <label class="form-check-label" for="opcion1">
                                                     <strong class="fw-semibold">Envio rápido</strong>
                                                     <span class="d-block small opacity-75">S/ 10.90 - 24
@@ -320,7 +320,7 @@
 
                         <div class="detalle-compra1">
 
-                          <hr class="my-4">
+                            <hr class="my-4">
 
                             <ul class="list-group mb-3">
                                 <li class="list-group-item d-flex justify-content-between lh-sm">
@@ -424,8 +424,8 @@
                                         <form class="needs-validatio" synovalidate>
                                             <div class="my-3">
                                                 <div class="form-check">
-                                                    <input id="opcion2" name="paymentMethod" type="radio" value="opcion2"
-                                                        class="form-check-input">
+                                                    <input id="opcion2" name="paymentMethod" type="radio"
+                                                        value="opcion2" class="form-check-input">
                                                     <label class="form-check-label" for="opcion2">
                                                         <strong>PayPal</strong>
                                                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -450,7 +450,7 @@
 
                         </div>
 
-                        <div class="btn btn-medium btn-primary" onclick="location.href='./cargando.html'">
+                        <div class="btn btn-medium btn-primary" onclick="location.href='cargando'">
                             Pagar Ahora
                         </div>
                         <div class="btn btn-medium btn-secondary" onclick="location.href='nav-profile'">Regresar

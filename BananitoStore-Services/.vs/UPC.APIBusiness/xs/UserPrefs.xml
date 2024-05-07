@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{5123A969-B129-447E-9423-F01E7274BCEC}|API.IS">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="UPC.APIBusiness" expanded="True">
+            <Node name="UPC.APIBusiness.API" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.UPC.APIBusiness.API.IS PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

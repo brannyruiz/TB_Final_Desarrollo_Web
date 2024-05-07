@@ -147,8 +147,8 @@
       </button>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="bdNavbar" aria-labelledby="bdNavbarOffcanvasLabel">
         <div class="offcanvas-header px-4 pb-0">
-          <a class="navbar-brand" href="index.html">
-            <img src="images/Logo/main-logo.png" class="logo">
+          <a class="navbar-brand" href="home">
+            <img src="../assets/images/Logo/main-logo.png" class="logo">
           </a>
           <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas" aria-label="Close"
             data-bs-target="#bdNavbar"></button>
@@ -196,7 +196,9 @@
                   </li>
                   <li>
                     <a href="carritoCompra">
-                      <span>{{ cantidadItems }}</span>
+                      <span class="bg-primary rounded-circle px-2 py-1" style="color: white; font-weight: bold;">{{
+                        cantidadItems
+                        }}</span>
                       <svg class="cart">
                         <use xlink:href="#cart"></use>
                       </svg>

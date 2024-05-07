@@ -5,6 +5,7 @@
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'API.IS' " />
   <ItemGroup>
     <PackageReference Include="IdentityServer4" Version="4.1.1" />
     <PackageReference Include="IdentityServer4.Storage" Version="4.1.1" />
